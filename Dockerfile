@@ -1,4 +1,4 @@
-FROM circleci/golang:1.13.8
+FROM circleci/golang:1.14.4
 
 USER root
 RUN apt-get install python3.7
